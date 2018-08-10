@@ -35,7 +35,7 @@ mississippi = River.new("The Mississippi", )
 amazon = River.new("The Amazon", 7381000)
 seine = River.new("The Seine")
 yangtze = River.new("The Yangtze", 1605000)
-euphrates = River.new("The Euphrates")
+euphrates = River.new("The Euphrates", 12570)
 
 amazon.flood
 yangtze.flood
