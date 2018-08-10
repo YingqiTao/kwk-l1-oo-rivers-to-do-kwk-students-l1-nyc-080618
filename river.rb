@@ -34,7 +34,7 @@ nile = River.new("The Nile", 4160, "Tanzania, Burundi, Rwanda, the Democratic Re
 mississippi = River.new("The Mississippi", 3710, "United States", 593000)
 amazon = River.new("The Amazon", 4000, "Peru, Bolivia, Venezuela, Colombia, Ecuador, Brazil", 7381000)
 seine = River.new("The Seine", 485, "France", 17660)
-yangtze = River.new("The Yangtze", 3964, 1605000)
+yangtze = River.new("The Yangtze", 3964, "China", 1605000)
 euphrates = River.new("The Euphrates", 12570)
 
 amazon.flood
