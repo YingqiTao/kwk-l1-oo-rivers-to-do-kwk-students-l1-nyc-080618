@@ -4,19 +4,19 @@ class River
     @name = name
   end
   
-  attr_accessor :length, :countries, :discharge
+  #attr_accessor :length, :countries, :discharge
   
-  # def length
-  #   @length
-  # end
+  def length
+    @length
+  end
   
-  # def countries
-  #   @countries
-  # end
+  def countries
+    @countries
+  end
   
-  # def discharge
-  #   @discharge
-  # end
+  def discharge
+    @discharge
+  end
   
   def flood
     @discharge = @discharge * 1.3
