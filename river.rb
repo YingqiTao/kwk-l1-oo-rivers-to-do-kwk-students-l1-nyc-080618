@@ -1,10 +1,7 @@
 # river.rb
 class River 
-  def initialize(name, length, countries, discharge)
+  def initialize(name)
     @name = name
-    @length = length
-    @countries = countries
-    @discharge = discharge
   end
   
   attr_accessor :length, :countries, :discharge
@@ -30,12 +27,23 @@ class River
   end
 end
 
-nile = River.new("The Nile", 4160, "Tanzania, Burundi, Rwanda, the Democratic Republic of the Congo, Kenya, Uganda, South Sudan, Ethiopia, Sudan", 99940)
-mississippi = River.new("The Mississippi", 3710, "United States", 593000)
-amazon = River.new("The Amazon", 4000, "Peru, Bolivia, Venezuela, Colombia, Ecuador, Brazil", 7381000)
-seine = River.new("The Seine", 485, "France", 17660)
-yangtze = River.new("The Yangtze", 3964, "China", 1605000)
-euphrates = River.new("The Euphrates", 1740, "Turkey, Syria, Iraq", 12570)
+nile = River.new("The Nile")
+#4160, "Tanzania, Burundi, Rwanda, the Democratic Republic of the Congo, Kenya, Uganda, South Sudan, Ethiopia, Sudan", 99940)
+
+mississippi = River.new("The Mississippi")
+#3710, "United States", 593000)
+
+amazon = River.new("The Amazon")
+#4000, "Peru, Bolivia, Venezuela, Colombia, Ecuador, Brazil", 7381000)
+
+seine = River.new("The Seine") 
+#485, "France", 17660)
+
+yangtze = River.new("The Yangtze")
+#3964, "China", 1605000)
+
+euphrates = River.new("The Euphrates")
+#1740, "Turkey, Syria, Iraq", 12570)
 
 amazon.flood
 yangtze.flood
