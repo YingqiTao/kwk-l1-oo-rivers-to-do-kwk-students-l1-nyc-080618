@@ -31,8 +31,8 @@ class River
 end
 
 nile = River.new("The Nile", 4258, "Tanzania, Burundi, Rwanda, the Democratic Republic of the Congo, Kenya, Uganda, South Sudan, Ethiopia, Sudan", 99940)
-mississippi = River.new("The Mississippi", 7.381)
-amazon = River.new("The Amazon")
+mississippi = River.new("The Mississippi", )
+amazon = River.new("The Amazon", 7381000)
 seine = River.new("The Seine")
 yangtze = River.new("The Yangtze")
 euphrates = River.new("The Euphrates")
